@@ -10,7 +10,7 @@ tags:
 
 # AI Readme
 
-This repository organizes AI-related resources including prompts, project specifications, skills documentation, and custom commands for working with AI assistants like Claude.
+This repository organizes AI-related resources, including prompts, project specifications, skills documentation, and custom commands for working with AI assistants like Claude.
 
 ## Repository Structure
 
@@ -34,16 +34,11 @@ These files work hierarchically: project-specific configurations take precedence
 
 Contains AI-assisted project specifications and prompts for specific tasks.
 
-- **Christmas 2025 Group Photo.md** - Professional photo editing prompt with precise constraints for adding individuals to group photos
-- **LorraineLai/** - Project-specific workspace
-
 Each project file includes detailed requirements, constraints, and expected outcomes to ensure consistent AI assistance across complex tasks.
 
 ### `/Skills/`
 
 Documentation for specialized AI interaction patterns and workflows.
-
-- **Explore.md** - Template for deep codebase analysis using multiple explore subagents to understand architecture, terminology, and project-specific conventions
 
 Skills provide reusable prompt patterns that can be adapted to different codebases and situations.
 
