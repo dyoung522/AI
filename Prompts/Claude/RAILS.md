@@ -12,6 +12,8 @@ tags:
 Project-agnostic guidance for writing modern, idiomatic Ruby on Rails.  
 Project-specific instructions (PROJECT.md / repo docs) take precedence.
 
+Also read @RUBY.md and @WEBUI.md for more instructions if you haven't already.
+
 ## Rails Versioning
 
 - Prefer the latest **stable** Rails release unless a project specifies otherwise.
