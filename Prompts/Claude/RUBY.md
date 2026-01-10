@@ -11,7 +11,7 @@ tags:
 # RUBY.md
 
 Project-agnostic guidance for writing Ruby in this workspace.  
-Project-specific instructions (PROJECT.md / repo docs) take precedence.
+Project-specific instructions (@PROJECT.md / repo docs) take precedence.
 
 ## Tooling and Versioning
 
