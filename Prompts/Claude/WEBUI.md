@@ -42,19 +42,6 @@ Project-specific instructions (PROJECT.md) take precedence.
 - Do not introduce CSS frameworks beyond Tailwind.
 - Prefer Tailwind’s mobile-first responsive utilities; add breakpoints only when needed.
 
-## JavaScript
-
-- Prefer **Turbo** for navigation and partial page updates.
-- Use **Stimulus** for small, focused behavior attached to existing HTML.
-- Keep Stimulus controllers minimal and declarative.
-- Avoid client-side state management unless explicitly required.
-
-## Hotwire Usage
-
-- Turbo Frames and Turbo Streams are preferred over custom JS solutions.
-- Use Turbo to reduce page reloads, not to simulate an SPA.
-- If behavior becomes complex, reconsider the UI design before adding JS.
-
 ## Accessibility
 
 - UI changes should not break keyboard navigation.
