@@ -46,8 +46,17 @@ Also read @RUBY.md and @WEBUI.md for more instructions if you haven't already.
 ## JavaScript
 
 - Prefer Rails defaults (importmap + Hotwire) unless a project explicitly opts into a JS bundler.
+- Prefer **Turbo** for navigation and partial page updates.
+- Use **Stimulus** for small, focused behavior attached to existing HTML.
+- Keep Stimulus controllers minimal and declarative.
+- Avoid client-side state management unless explicitly required.
 - Avoid introducing frontend complexity unless it materially improves the user experience.
-- Keep Stimulus controllers small, focused, and declarative.
+
+## Hotwire Usage
+
+- Turbo Frames and Turbo Streams are preferred over custom JS solutions.
+- Use Turbo to reduce page reloads, not to simulate an SPA.
+- If behavior becomes complex, reconsider the UI design before adding JS.
 
 ## Background Jobs
 
