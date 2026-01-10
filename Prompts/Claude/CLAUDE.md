@@ -43,7 +43,7 @@ Any file named after the primary code the project is using should be read if it 
 
 For example:
 
-- Ruby based projects should read RUBY.md (Note: Rails projects should look for and read RUBY and/or RAILS files)
-- Go (Golang) based projects should read GO.md
-- Rust should read RUST.md
+- Ruby based projects should read @RUBY.md (Note: Rails projects should look for and read @RUBY.md and @RAILS.md files)
+- Go (Golang) based projects should read @GO.md
+- Rust should read @RUST.md
 - etc.
